@@ -1,0 +1,8 @@
+version: "3"
+services:
+  jenkins:
+    image: jenkins/jenkins
+    container_name: jenkins_container
+    ports:
+      - 8080:8080
+    

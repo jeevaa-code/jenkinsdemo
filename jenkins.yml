@@ -1,0 +1,7 @@
+version: "3.9"
+services: 
+  jenkins:
+    image: jenkins/jenkins:lts
+    container_name: jeeva_jenkins
+    ports: 
+      - 8080:8080

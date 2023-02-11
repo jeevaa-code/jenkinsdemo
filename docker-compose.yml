@@ -1,0 +1,7 @@
+version : "3"
+services: 
+  website:
+    image: docker.io/jeevaa21/website:v1
+    container_name: html_website
+    ports:
+      - 80:80

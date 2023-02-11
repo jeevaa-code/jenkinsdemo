@@ -1,0 +1,6 @@
+FROM ubuntu
+RUN touch helloworld.txt
+RUN echo "welcome to docker" > helloworld.txt
+RUn echo "new world new begining" >> helloworld.txt
+RUN cat /etc/hosts
+RUN cat /etc/*release*
